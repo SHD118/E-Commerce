@@ -22,15 +22,11 @@ router.get('/:id', async (req, res) => {
       res.status(404).json({ message: 'No category with this ID, please try enter a valid ID' });
       return;
     }
-    res.json(category);
-
+    res.status(200).json(category);
+  } catch (err) {
+    res.status(500).json(err);
   }
-  // find one category by its `id` value
-  // be sure to include its associated Products
-  catch(err) {
-    console.log("Hello Error");
-  if(err) throw new Error(err);
-  }
+    
 });
 
 router.post('/', async (req, res) => {
@@ -53,11 +49,11 @@ router.put('/:id', async(req, res) => {
         id: req.params.id,
       },
     }) 
-    res.json(category)
-  } catch(err) {
-    console.log("Hello Error");
-  if(err) throw new Error(err);
+    res.status(200).json(category);
+  } catch (err) {
+    res.status(500).json(err);
   }
+    
 });
 
 router.delete('/:id', async (req, res) => {
