@@ -44,7 +44,7 @@ THEN I am able to successfully create, update, and delete data in my database
 11. [ Resources. ](#resources)
 ## Installation
 * Clone the repository using:
-
+```
 git clone git@github.com:SHD118/Employee-Tracker.git
 ```
 * Ensure you are in the current working directory
