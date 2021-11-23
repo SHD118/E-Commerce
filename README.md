@@ -4,7 +4,7 @@
 ## Description
 The purpose of this project was to complete a e-commerce sites backend processing using Express.js API, Sequelize, dotenv and Insomnia.
 
-Using Insomnia, the user is able to GET, POST, PUT, and DELETE products, categories, and tags for their company.
+
 
 ## User Story
 
