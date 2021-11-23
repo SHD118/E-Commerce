@@ -29,7 +29,7 @@ THEN the data for each of these routes is displayed in a formatted JSON
 WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
 THEN I am able to successfully create, update, and delete data in my database
 ```
-```
+
 [![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)
 ## Table of Contents
 1. [ Description. ](#description)
@@ -44,7 +44,7 @@ THEN I am able to successfully create, update, and delete data in my database
 11. [ Resources. ](#resources)
 ## Installation
 * Clone the repository using:
-```
+
 git clone git@github.com:SHD118/Employee-Tracker.git
 ```
 * Ensure you are in the current working directory
