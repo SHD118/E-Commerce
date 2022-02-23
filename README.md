@@ -112,4 +112,6 @@ https://github.com/SHD118/E-Commerce
 
 
 ## Resources
+<br />
+https://docs.insomnia.rest/
 
