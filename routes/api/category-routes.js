@@ -17,11 +17,13 @@ router.get('/', async (req, res) => {
 
 router.get('/:id', async (req, res) => {
   try {
-    const category = await Category.findBypK(req.params.id, { include: [{ model: Product }] });
-    if (!category) {
-      res.status(404).json({ message: 'No category with this ID, please try enter a valid ID' });
-      return;
-    }
+    const category = await Category.findAll({
+      where: {
+        id: req.params.id,
+      },
+      include: [{ model: Product }]
+    });
+
     res.status(200).json(category);
   } catch (err) {
     res.status(500).json(err);
@@ -32,7 +34,7 @@ router.get('/:id', async (req, res) => {
 router.post('/', async (req, res) => {
   // create a new category
   try {
-  const category = await Category.create(req.body.category_name)
+  const category = await Category.create(req.body)
 
   res.status(200).json(category);
 } catch (err) {
