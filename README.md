@@ -44,7 +44,7 @@ THEN I am able to successfully create, update, and delete data in my database
 ## Installation
 * Clone the repository using:
 ```
-git clone git@github.com:SHD118/Employee-Tracker.git
+git clone git@github.com:SHD118/E-Commerce.git
 ```
 * Ensure you are in the current working directory
 * Ensure all dependencies are installed as shown below installation instructions are below:
