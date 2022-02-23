@@ -99,6 +99,7 @@ Want to see more of my work? [Github Link](https://github.com/SHD118/Team-Profil
 Want to learn more please contact me at shdesai118@gmail.com
 
 ## Video
+https://www.awesomescreenshot.com/video/7558642
 
 ## Screenshots
 ![](./Assets/role.PNG)
@@ -106,6 +107,7 @@ Want to learn more please contact me at shdesai118@gmail.com
 ![](./Assets/dep.PNG)
 
 ## Links
+https://github.com/SHD118/E-Commerce
 
 
 ## Resources
